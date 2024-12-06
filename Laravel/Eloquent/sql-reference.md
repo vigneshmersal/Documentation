@@ -375,7 +375,7 @@ SELECT * FROM profiles WHERE profiles.user_id IN (1, 2, 3)
 
 User has many orders. Order `belongsTo` user
 
-For nested relationships examples another one to many relationship is used. Order `hasMany` support tickets, support ticket `belongsTo` order.
+Orders has many support tickets. support tickets `belongsTo` order
 
 Get user's orders
 ```php
